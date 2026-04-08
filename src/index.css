@@ -1,0 +1,26 @@
+:root {
+  --bg-color: #0a0a0a;
+  --card-bg: #111111;
+  --accent-color: #ff4d00; /* A bold, energetic orange similar to high-end tech sites */
+  --text-main: #ffffff;
+  --text-muted: #888888;
+  --border-color: #222222;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, system-ui, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: var(--accent-color);
+  color: var(--bg-color);
+}
